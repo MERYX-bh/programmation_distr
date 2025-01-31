@@ -10,7 +10,7 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-    name: build-and-deploy
+    name: build
     steps:
 
       - name: Checkout repository
