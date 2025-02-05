@@ -30,7 +30,7 @@ jobs:
       #     ./gradlew build
 
       # Simule une construction réussie
-      - name: Fake Build Step
+      - name: Build Step
         run: |
           echo "Simulating successful build..."
           sleep 3
