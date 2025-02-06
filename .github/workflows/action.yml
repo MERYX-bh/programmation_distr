@@ -33,7 +33,7 @@ jobs:
       - name: Build Step
         run: |
           echo "successful build..."
-          sleep 15
+          sleep 5
           echo "Build successful!"
 
       - name: Build Docker image
@@ -46,7 +46,7 @@ jobs:
       - name: Show docker images
         run: |
           echo "Showing docker images..."
-          sleep 8
+          sleep 5
           echo "Image: rent-car-Service:latest"
 
       - name: Test simple
