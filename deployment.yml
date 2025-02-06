@@ -38,7 +38,7 @@ metadata:
   name: rentCar
 spec:
   ports:
-    - port: 70
+    - port: 80
       protocol: TCP
       targetPort: 8080
       name: http
