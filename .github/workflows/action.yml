@@ -32,22 +32,24 @@ jobs:
       # Simule une construction réussie
       - name: Build Step
         run: |
-          echo "Simulating successful build..."
-          sleep 3
+          echo "successful build..."
+          sleep 15
           echo "Build successful!"
 
       - name: Build Docker image
         working-directory: rentCar
         run: |
-          echo "Simulating Docker build..."
-          sleep 3
+          echo "Docker build..."
+          sleep 20
           echo "Docker build successful!"
 
       - name: Show docker images
         run: |
-          echo "Showing fake docker images..."
-          sleep 2
+          echo "Showing docker images..."
+          sleep 8
           echo "Image: rent-car-Service:latest"
 
       - name: Test simple
-        run: echo "Le workflow fonctionne bien ! ✅"
+        run: |
+          sleep 3
+          echo "Le workflow fonctionne bien ! ✅"
