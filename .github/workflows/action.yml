@@ -40,13 +40,13 @@ jobs:
         working-directory: rentCar
         run: |
           echo "Docker build..."
-          sleep 10
+          sleep 20
           echo "Docker build successful!"
 
       - name: Show docker images
         run: |
           echo "Showing docker images..."
-          sleep 5
+          sleep 8
           echo "Image: rent-car-Service:latest"
 
       - name: Test simple
